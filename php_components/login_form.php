@@ -3,14 +3,17 @@
         <div class="container">
             <div class="col-md-6">
                 <div class="login-page">
+                <script src="js/validar.js"></script>
                 <br> <br>
                     <h4 class="title">Nuevos miembros</h4>
                     <br>
                     <p>Queremos lo mejor para tu peludito, es por ello que en "Huellitas aventureras" nos empeñamos todos los días en hacerlo sentir bien y cuidarlos como si fueran nuestros. Piensa en tu peludito y regalale un paseo con los mejores paseadores de la ciudad, forma parte de nuestra gran familia</p>
                    
                     <div class="btnn">
-                    <button href="register.html" type="getnow" name="subscribe" class="btn btn-primary btn-lg" required="required">Crear una cuenta</button>
-                    </div>
+                   <a href="register.php">
+                    <button type="getnow" name="subscribe" class="btn btn-primary btn-lg" required="required">Crear una cuenta</button>
+</a>
+                </div>
                     <div class="clear"></div>
                 </div>
             </div>
@@ -21,11 +24,11 @@
                     
                     <br>
                     <div id="loginbox" class="loginbox">
-                        <form action="" method="post" name="login" id="login-form">
+                        <form action="" method="post" name="login" id="login-form" onsubmit="return validar();">
                             <fieldset class="input">
                                 <p id="login-form-username">
                                     <label for="modlgn_username">Correo</label>
-                                    <input id="modlgn_username" type="text" name="email" class="inputbox" size="18" autocomplete="off">
+                                    <input id="modlgn_username" type="email" name="email" class="inputbox" size="18" autocomplete="off">
                                 </p>
                                 <p id="login-form-password">
                                     <label for="modlgn_passwd">Contraseña</label>
