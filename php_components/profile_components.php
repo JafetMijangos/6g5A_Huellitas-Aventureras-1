@@ -32,14 +32,17 @@
                                 <?php } ?>
                             </table>
                         </form>
+
                     </div>
                     <div style=" margin-bottom:10px; padding:2px; background-color:#65AAF0; line-height:1;">
                         <a href="add-pet.php">
-                            <button type="getnow" name="add-pet" class="btn" required="required">
-                                <p>Add</p></button>
-                        </a></div>
+                            <button type="getnow" name="add-pet" class="btn" required="required">Agregar</button>
+                        </a>
+                    </div>
                     <div class="clear"></div>
                 </div>
+
+
             </div>
 
             <div class="col-md-6">
