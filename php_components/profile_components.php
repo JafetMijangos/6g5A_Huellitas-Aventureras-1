@@ -22,12 +22,12 @@
                                 $pets = $_SESSION["userPets"];
                                 for ($i = 0; $i < sizeof($_SESSION["userPets"]); $i++) { ?>
                                     <tr>
-                                    <td style="padding-top: 1.5em"><p> <?php echo $_SESSION["userPets"][$i][1]; ?> </p></td>
-                                    <td style="text-align: right">
-                                        <button href="inicio.html" type="getnow" name="subscribe"
-                                                class="btn btn-primary btn-lg" required="required" onclick="petIndex.value=<?php echo $_SESSION["userPets"][$i][0]; ?>">Editar
-                                        </button>
-                                    </td>
+                                        <td style="padding-top: 1.5em"><p> <?php echo $_SESSION["userPets"][$i][1]; ?> </p></td>
+                                        <td style="text-align: right">
+                                            <button href="inicio.html" type="getnow" name="subscribe"
+                                                    class="btn btn-primary btn-lg" required="required" onclick="petIndex.value=<?php echo $_SESSION["userPets"][$i][0]; ?>">Editar
+                                            </button>
+                                        </td>
                                     </tr>
                                 <?php } ?>
                             </table>
