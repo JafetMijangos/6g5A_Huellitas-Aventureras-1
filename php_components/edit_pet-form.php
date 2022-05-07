@@ -18,7 +18,6 @@ $petRace = $_SESSION["userPets"][$_GET["petsArrayIndex"]][3];
         background-color: rgba(247, 251, 255, 0.75);
     }
 
-    }
 </style>
 <section class="contact-page">
     <div class="container">
